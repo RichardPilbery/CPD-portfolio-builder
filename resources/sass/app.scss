@@ -1,0 +1,124 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+    h1 {
+        @apply text-2xl;
+        @apply font-light;
+    }
+
+    h2 {
+        @apply text-xl;
+        @apply font-light;
+    }
+
+    h3 {
+        @apply text-lg;
+        @apply font-light;
+    }
+
+    h4 {
+        @apply font-light;
+    }
+
+    p {
+        @apply text-sm;
+        @apply font-light;
+    }
+
+    input, select, textarea {
+        @apply font-light;
+    }
+
+    a {
+        @apply font-light;
+    }
+
+    table, td {
+        @apply font-light;
+    }
+
+    // https://stackoverflow.com/a/17147909/3650230
+
+    td a {
+        @apply block;
+    }
+
+    .btn {
+        @apply bg-transparent text-blue-700 font-light py-2 px-4 border border-blue-500 rounded;
+      }
+
+      .btn:hover {
+        @apply bg-blue-700 text-white border-transparent;
+      }
+
+      .danger-btn {
+        @apply bg-transparent text-red-700 font-light py-2 px-4 border border-red-500 rounded;
+      }
+
+      .danger-btn:hover {
+        @apply bg-red-700 text-white border-transparent;
+      }
+
+      .green-btn {
+        @apply bg-transparent text-green-700 font-light py-2 px-4 border border-green-500 rounded;
+      }
+
+      .green-btn:hover {
+        @apply bg-green-700 text-white border-transparent;
+      }
+
+      a:hover {
+          @apply text-blue-700;
+      }
+
+      li:hover.big-text {
+          @apply bg-yellow-200;
+          @apply text-gray-900;
+      }
+
+      .big-text a {
+        @apply text-gray-900;
+      }
+
+      .card {
+          @apply bg-gray-100 mb-4 p-3 shadow-md rounded border;
+      }
+
+      .card > div {
+        @apply py-1;
+      }
+
+      .card > div > h3 {
+          @apply  mb-2 ml-3 pl-3 pt-2;
+      }
+
+      .card > div > p {
+          @apply mb-3 ml-3 pl-3 font-light text-gray-700;
+      }
+
+      .alert {
+          @apply block text-red-600;
+      }
+
+      .is-invalid {
+          @apply bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative;
+      }
+
+      .error-fb {
+          @apply text-red-700;
+      }
+
+      .jumbo {
+          @apply text-5xl;
+          @apply font-semibold;
+      }
+
+      .select {
+          @apply bg-gray-100;
+      }
+
+      .light-url:hover {
+          @apply text-gray-300;
+      }
