@@ -18,7 +18,7 @@
         "laravel-echo": "^1.11.7",
         "laravel-mix": "^6.0.6",
         "lodash": "^4.17.19",
-        "node-forge": "^1.2.1",
+        "node-forge": "^1.3.3",
         "postcss": "^8.4.31",
         "postcss-import": "^12.0.1",
         "pusher-js": "^7.0.6",
